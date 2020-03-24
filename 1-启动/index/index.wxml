@@ -1,0 +1,3 @@
+<navigator url="../child-page/child-page?last=leaf&rand={{rand}}">
+  <view class="intro">点击跳转到 child-page</view>
+</navigator>

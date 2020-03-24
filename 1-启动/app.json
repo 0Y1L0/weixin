@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "index/index",
+    "child-page/child-page"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "restartStrategy": "homePage"
+  },
+  "sitemapLocation": "sitemap.json"
+}
