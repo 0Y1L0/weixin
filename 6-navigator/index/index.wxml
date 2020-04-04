@@ -1,0 +1,18 @@
+<!-- 
+导航组件 navigator
+0 会级元素 默认会换行 可以直接加宽高
+1 url 要跳转的页面路径 绝对路径 相对路径
+2 target 要跳转到当前的小程序 还是其他的小程序页面
+  self 默认值 自己小程序的页面
+  minprogram 其他小程序的页面
+3 open-type 跳转的方式
+  1 navigation 默认值 保留当前页面，跳转到应用内的某个页面，但是不能跳到tabbar页面
+  2 redirect 关闭当前页面，跳转到应用的某个页面，但是不能跳到tabbar页面
+  3 switchTab 跳转到tabBar页面，并关闭其他所有非tabbar页面
+  https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html
+ -->
+<view class="btn-area">
+  <navigator url="/navigate/navigate?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>
+  <navigator url="../redirect/redirect?title=redirect" open-type="redirect" hover-class="other-navigator-hover">在当前页打开</navigator>
+  <navigator url="/index/index" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+</view>
