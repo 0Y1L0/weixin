@@ -1,0 +1,4 @@
+/* pages/array/array.wxss */
+button{
+  background-color: #ffff;
+}
