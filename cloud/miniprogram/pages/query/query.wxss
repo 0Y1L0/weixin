@@ -1,4 +1,5 @@
 /* pages/array/array.wxss */
 button{
   background-color: #ffff;
+  margin-bottom: 10rpx
 }
