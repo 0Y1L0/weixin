@@ -1,0 +1,5 @@
+/* pages/query/query.wxss */
+button{
+  background-color: #ffff;
+  margin-bottom: 20px;
+}
