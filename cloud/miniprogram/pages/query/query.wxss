@@ -1,5 +1,5 @@
-/* pages/query/query.wxss */
+/* pages/array/array.wxss */
 button{
   background-color: #ffff;
-  margin-bottom: 20px;
+  margin-bottom: 10rpx
 }
