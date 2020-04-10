@@ -1,3 +1,5 @@
 <!--pages/array/array.wxml-->
 <button bindtap='query'>数组查询</button>
+<button bindtap='query2'>字段查询</button>
+<button bindtap='query3'>正则查询</button>
 <button bindtap='queryUrl'>获取文件临时路径</button>

@@ -17,6 +17,24 @@ Page({
     })
     .get().then(console.log)
   },
+  query2: function () {
+    db.collection('data')
+    .field({
+      des: true
+    })
+    .get().then(console.log)
+  },
+
+  query3: function () {
+    db.collection('data')
+      .where({
+        name: new db.RegExp({
+          regexp: 'name-[1-9]',
+          opotions: 'i' 
+        })
+      })
+      .get().then(console.log)
+  },
 
 	queryUrl: function () {
 		wx.cloud.getTempFileURL({
